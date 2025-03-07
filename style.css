@@ -7,10 +7,6 @@
 
 body {
   width: 375px;
-  background-color: rgb(28, 26, 25);
-  background-image: url('./images/Illustration2.png');
-  background-position: right bottom;
-  background-repeat: no-repeat;
 }
 
 :root {
@@ -49,6 +45,10 @@ main {
   align-content: center;
   min-height: calc(100vh - 48px);
   padding: 0 12px;
+  background-color: rgb(28, 26, 25);
+  background-image: url('./images/Illustration2.png');
+  background-position: right bottom;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -89,4 +89,76 @@ p {
   font-weight: 400;
   letter-spacing: 0%;
   line-height: 24px;
+}
+
+/* Work Section */
+#projects {
+  background-color: #fff;
+  background-color: aquamarine;
+}
+
+#projects h1 {
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0%;
+  color: #1c1a19;
+  vertical-align: middle;
+  border-bottom: 1px solid #212121;
+  padding: 83px 24px;
+}
+
+#wrapper {
+  max-width: 87.2%;
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  align-content: center;
+}
+
+#wrapper > img {
+  margin-top: 80px;
+}
+
+#wrapper h2 {
+  color: #091e42;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+#wrapper p {
+  color: #091e42;
+}
+
+.languages {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.languages li {
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+  list-style-type: none;
+}
+
+#see_project {
+  color: white;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #ff6b00;
+  padding: 12px;
+  margin: 24px 0;
+  border: 1px solid #FF6B00;
+}
+
+section {
+  display: flex;
+  justify-content: center;
 }
