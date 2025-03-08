@@ -29,7 +29,6 @@ body {
   src: url(./fonts/Inter-VariableFont_opsz\,wght.ttf);
 }
 
-
 header.top {
   height: 48px;
   background-color: #3c3a39;
@@ -74,6 +73,12 @@ h2 {
   letter-spacing: 0%;
   vertical-align: middle;
   color: #fff5e1;
+}
+
+.languages li {
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+  list-style-type: none;
 }
 
 ul.social li {
@@ -149,12 +154,6 @@ p {
 .languages {
   display: flex;
   justify-content: space-between;
-}
-
-.languages li {
-  border: 1px solid #8993a4;
-  padding: 10px 12px;
-  list-style-type: none;
 }
 
 #see_project {
