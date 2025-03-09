@@ -51,36 +51,60 @@
 
       <div>
         <ul class="social">
-          <li><a href="#"><img src="./images/github.svg"></a></li>
-          <li><a href="#"><img src="./images/linkedin.svg"></a></li>
-          <li><a href="#"><img src="./images/angelist.svg"></a></li>
-          <li><a href="#"><img src="./images/twiiter.svg"></a></li>
-          <li><a href="#"><img src="./images/medium.svg"></a></li>
+          <li>
+            <a href="#"><img src="./images/github.svg" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/linkedin.svg" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/angelist.svg" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/twiiter.svg" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/medium.svg" /></a>
+          </li>
         </ul>
       </div>
     </main>
     <div id="projects">
-      
       <section>
-        
         <div id="wrapper">
           <header><h1>My Recent Works</h1></header>
-          <img src="./images/multipost.svg" alt="" />
-          <h2>Multi-Post Stories</h2>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard dummy text ever
-            since the 1500s, when an unknown printer took a standard dummy text.
-          </p>
-          <ul class="languages">
-            <li>CSS</li>
-            <li>HTML</li>
-            <li>Bootstrap</li>
-            <li class="last_item">Ruby</li>
-          </ul>
-          <button id="see_project">See Project</button>
-        </div>
+          <div class="single_project">
+            <div class="first_project">
+              <img src="./images/multipost.svg" alt="" />
+            <h2>Multi-Post Stories</h2>
+            <p id="first_project_p" class="project_paragraph">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a standard
+              dummy text.
+            </p>
+            <ul class="languages">
+              <li>CSS</li>
+              <li>HTML</li>
+              <li>Bootstrap</li>
+              <li class="last_item">Ruby</li>
+            </ul>
+            <button id="see_project" class="see_project_button">See Project</button>    
+            </div> <!-- End of First Project-->
+            <div id="second_project"> 
+              <h2>Profesional Art Printing Data</h2>
+              <p id="second_project_p"> A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+              <ul class="languages second_languages">
+                <li class="first_item">HTML</li>
+                <li>Bootstrap</li>
+                <li>Ruby</li>
+              </ul>
+              <button class="see_project_button full_width_button">See Project</button>  
+            </div>
+          </div><!-- Single Project grid container end-->
+        </div><!--- End of wrapper-->
       </section>
-    </div>
+    </div><!-- End of projects div-->
+    
   </body>
 </html>
