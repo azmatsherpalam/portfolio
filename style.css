@@ -214,6 +214,7 @@ section {
   display: flex;
   justify-content: flex-start;
   gap: 12px;
+  color: #fff;
 }
 
 #second_project h2 {
