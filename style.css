@@ -201,8 +201,8 @@ section {
 }
 
 #second_project {
-  background-color: aquamarine;
   background-image: url(./images/second_project_bg.png);
+  background-repeat: no-repeat;
 }
 
 .full_width_button {
@@ -224,4 +224,22 @@ section {
   font-size: 32px;
   line-height: 44px;
   color: white;
+}
+
+#last_see_project_button {
+  margin-bottom: 120px;
+}
+
+/* About Me section */
+
+.about_me_bg {
+  background-color: #1c1a19;
+  background-image: url(./images/about_me_bg.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+article h1 {
+  font-size: 72px;
+  line-height: 88px;
 }
