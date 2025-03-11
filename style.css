@@ -12,6 +12,7 @@ body {
 :root {
   --white: #fff;
   --robotfont: roboto;
+  --black: #1c1a19;
 }
 
 @font-face {
@@ -104,7 +105,7 @@ p {
 
 /* Work Section */
 #projects {
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 #projects h1 {
@@ -214,16 +215,16 @@ section {
   display: flex;
   justify-content: flex-start;
   gap: 12px;
-  color: #fff;
+  color: var(--white);
 }
 
-#second_project h2 {
+#second_project > h2 {
   margin: 72px 22px 12px 16px;
   font-family: creteround, sans-serif;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: white;
+  color: var(--white);
 }
 
 #last_see_project_button {
@@ -231,15 +232,75 @@ section {
 }
 
 /* About Me section */
-
-.about_me_bg {
-  background-color: #1c1a19;
-  background-image: url(./images/about_me_bg.png);
-  background-position: right bottom;
-  background-repeat: no-repeat;
+.about_me {
+  padding-top: 120px;
+  background-color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  text-align: center;
 }
-
-article h1 {
-  font-size: 72px;
+.about_me h1 {
+  font-family: creteround, sans-serif;
+  font-weight: 400;
   line-height: 88px;
+  letter-spacing: 0.37;
+  color: #ff6b00;
+  font-size: 72px;
 }
+
+.about_me_bg > p {
+  color: #f4f5f7;
+  font-family: inter;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.about_me_bg > .resumebutton {
+  background-color: #ff6b00;
+  font-family: inter, sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 24px 195px 120px 24px;
+}
+#hr {
+  width: 327px;
+  height: 1px;
+  margin-right: 24px;
+  margin-left: 24px;
+  background-color: var(--white);
+}
+.my-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--black);
+  padding: 120px 24px 38px 24px;
+}
+.my-skills > div > .skill-title {
+  font-size: 32px;
+  font-weight: 700;
+  vertical-align: middle;
+  color: var(--white);
+  display: inline-block;
+}
+
+.my-skills ul {
+  list-style-type: none;
+}
+
+
+
+
+
