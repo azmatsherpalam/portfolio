@@ -29,6 +29,11 @@ body {
   src: url(./fonts/Inter-VariableFont_opsz\,wght.ttf);
 }
 
+@font-face {
+  font-family: InaiMathi;
+  src: url(./fonts/Murasuit.ttf);
+}
+
 header.top {
   height: 48px;
   background-color: #3c3a39;
@@ -298,3 +303,52 @@ article {
   border-bottom: 1px solid white;
   margin-bottom: -0.3px;
 }
+
+h2.skill-title::before {
+  content: url('/images/Rectangle\ 55.png');
+  display: inline-block;
+  margin-right: 12px;
+  color: #ff6b00;
+}
+
+h2.skill-title {
+  color: var(--white);
+  font-weight: 600;
+  font-size: 32px;
+  vertical-align: middle;
+  margin: 8.73px 12px 8.73px 0;
+
+  /* font-family: InaiMathi, sans-serif; */
+
+}
+article.weblanguages > ul > li {
+  font-family: inter;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 42.67px;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+h2.framework-title::before {
+  content: url(./images/square.png);
+  display: inline-block;
+  margin-right: 12px;
+  color: #ff6b00;
+
+}
+
+.framework-title {
+  font-family: inter;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  vertical-align: middle;
+  color: var(--white);
+  margin: 8px 12px;
+}
+
+
