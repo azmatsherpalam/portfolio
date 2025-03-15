@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Match background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Fill the screen */
+        }
+
+        .container {
+            width: 400px;  /* Adjust width as needed */
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #1e3a8a;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+            width: 100%; /* Ensure form groups take full width */
+        }
+
+        label {
+            display: block;
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1em;
+            box-sizing: border-box;
+            margin-bottom: 8px;
+            resize: none; /* Disable textarea resizing */
+        }
+
+        textarea {
+            height: 120px; /* Adjust as needed */
+        }
+
+        .get-in-touch-button {
+            background-color: #ff7800; /* Orange color */
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            cursor: pointer;
+            margin-top: 15px;
+            width: fit-content; /* Important: adjust width to content */
+        }
+
+        .social-icons {
+            width: 100%;
+            padding: 20px;
+            border-top: 1px solid #ddd;
+            display: flex;
+            justify-content: center; /* Center icons horizontally */
+            align-items: center;
+        }
+
+        .social-icons a {
+            color: #336699; /* Social icon color */
+            font-size: 1.5em;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .social-icons i {
+            font-size: 1.5em;
+        }
+        /* Phone Signal */
+        .phone-signal {
+          width: 100%;
+          height: 30px;
+          background-color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .phone-signal hr{
+            width: 100px;
+            border-color: black;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h1>
+
+        <form>
+            <div class="form-group">
+                <label for="fullName">Full name</label>
+                <input type="text" id="fullName" name="fullName">
+            </div>
+
+            <div class="form-group">
+                <label for="emailAddress">Email address</label>
+                <input type="email" id="emailAddress" name="emailAddress">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Write me something...</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+        </form>
+
+        <button class="get-in-touch-button">Get in touch</button>
+
+        <div class="social-icons">
+            <a href="#" aria-label="Github"><i class="fab fa-github"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="#" aria-label="Dribbble"><i class="fa-solid fa-peace"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Medium"><i class="fa-brands fa-medium"></i></a>
+        </div>
+        <div class="phone-signal">
+        <hr/>
+        </div>
+
+    </div>
+
+</body>
+</html>
